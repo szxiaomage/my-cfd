@@ -20,16 +20,4 @@
 请复制并执行以下命令。它会自动下载脚本，并触发脚本的自安装程序。首次运行完成即安装。
 
 ```bash
-curl -Ls [https://raw.githubusercontent.com/szxiaomage/my-cfd/main/cfdy.sh](https://raw.githubusercontent.com/szxiaomage/my-cfd/main/cfdy.sh) | tr -d '\r' > /usr/local/bin/cfdy && chmod +x /usr/local/bin/cfdy && cfdy
-
-
-
-
-
-
-
-
-
-
-
-
+bash <(curl -l -s https://raw.githubusercontent.com/szxiaomage/my-cfd/main/cfdy.sh)
