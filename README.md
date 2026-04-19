@@ -5,8 +5,13 @@
 如果模板文件为空或无效，会提示用户手动粘贴一个链接模板。
 生成模式：
 内置Cloudflare 优选域名10个，可自己增加或者删除优选域名。
-此脚本参考byJoey大神生成，感谢大佬的辛苦付出。
+安装成功后，您可以随时在终端的任何位置输入以下命令来启动脚本：cfdy
 
+
+
+此脚本参考byJoey大神生成，感谢大神的辛苦付出。
+
+此脚本原创作者:byJoey GitHub：https://github.com/byJoey/cfy
 
 
 
@@ -14,12 +19,17 @@
 一键安装与运行
 请复制并执行以下命令。它会自动下载脚本，并触发脚本的自安装程序。首次运行完成即安装。
 
-bash <(curl -l -s https://raw.githubusercontent.com/szxiaomage/my-cfd/refs/heads/main/cfdy.sh)
-安装成功后，您可以随时在终端的任何位置输入以下命令来启动脚本：cfdy
+```bash
+curl -Ls [https://raw.githubusercontent.com/szxiaomage/my-cfd/main/cfdy.sh](https://raw.githubusercontent.com/szxiaomage/my-cfd/main/cfdy.sh) | tr -d '\r' > /usr/local/bin/cfdy && chmod +x /usr/local/bin/cfdy && cfdy
 
 
 
 
 
 
-此脚本原创作者:byJoey GitHub：https://github.com/byJoey/cfy
+
+
+
+
+
+
